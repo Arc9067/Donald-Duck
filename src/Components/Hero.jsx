@@ -84,7 +84,7 @@ const Hero = () => {
         <h1 className="text-yellow-300 text-7xl md:text-9xl font-titanOne text-center">
           donald duck
         </h1>
-        <img src={Logo} alt="" className="w-8/12 lg:w-max" />
+        <img src={Logo} alt="" className="w-10/12 lg:w-[30rem]" />
       </div>
     </section>
   );
