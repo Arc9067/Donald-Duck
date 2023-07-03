@@ -1,0 +1,21 @@
+@import url("https://fonts.cdnfonts.com/css/freckle-face");
+@import url("https://fonts.cdnfonts.com/css/holtwood-one-sc");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+@import url("https://fonts.cdnfonts.com/css/titan-one");
+@import url("https://fonts.cdnfonts.com/css/fredoka-one");
+@import url("https://fonts.cdnfonts.com/css/timmana");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: serifPage;
+  src: url(./assets/font.woff2);
+}
+
+@layer {
+  img {
+    @apply mx-auto;
+  }
+}
